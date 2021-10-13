@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Room Booking" max_length="40" name="x_58872_needit_room_booking" type="collection">
+        <element label="Booked By" max_length="32" name="booked_by" reference="sys_user" type="reference"/>
+        <element display="true" label="Building Name" max_length="40" name="building_name" type="string"/>
+        <element label="Room Number" max_length="40" name="room_number" type="integer"/>
+    </element>
+</database>
